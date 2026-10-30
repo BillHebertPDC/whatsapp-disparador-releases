@@ -12,7 +12,7 @@ Baixe o instalador mais recente em [Releases](https://github.com/BillHebertPDC/w
 
 ## Primeira instalação
 
-1. Baixe WhatsApp-Disparador-0.1.1-x64.exe.
+1. Baixe WhatsApp-Disparador-0.1.3-x64.exe.
 2. Execute o instalador.
 3. Abra o aplicativo e configure a API key do WAHA e do Gemini em **Configurações**.
 
@@ -23,7 +23,7 @@ O instalador não possui assinatura de código nesta versão. O Windows SmartScr
 Cada release inclui um arquivo .sha256. No PowerShell:
 
 `powershell
-Get-FileHash .\WhatsApp-Disparador-0.1.1-x64.exe -Algorithm SHA256
+Get-FileHash .\WhatsApp-Disparador-0.1.3-x64.exe -Algorithm SHA256
 `
 
 Compare o hash com o conteúdo do .sha256 publicado na release.
